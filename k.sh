@@ -9,19 +9,16 @@ fi
 #make clean                                                                                                                                                  
 make                                                                                                                                                         
                                                                                                                                                              
-#clean the log                                                                                                                                               
-sudo dmesg -c                                                                                                                                                
                                                                                                                                                              
 #remove module if exists                                                                                                                                     
-#sudo rmmod -f $1                                                                                                                                            
                                                                                                                                                              
 #insert module                                                                                                                                               
 sudo insmod $1                                                                                                                                               
-                                                                                                                                                             
-#print the log                                                                                                                                               
-dmesg                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                    
                                                                                                                                                              
 #remove the module                                                                                                                                           
-sudo rmmod $1                                                                                                                                                
+sudo rmmod -f $1                                                                                                                                                
                                                                                                                                                              
-                        
+                                                                                                                                                             
+#clean and print the log                                                                                                                                               
+sudo dmesg -c                                                                                                                                                          
