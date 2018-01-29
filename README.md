@@ -2,9 +2,9 @@
 
 ### Install 
 1. Copy k.sh to home directory `~/`.
-2. run `chmod +x ~/k.sh` 
+2. Run `chmod +x ~/k.sh` 
 3. Add `alias k='~/k.sh'` to `~/.bashrc`
-4. source `source ~/.bashrc`
+4. Source `source ~/.bashrc`
 
 ### Usage
 `$ k simple.ko`
