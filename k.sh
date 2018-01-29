@@ -1,7 +1,7 @@
 #!/bin/bash                                                                                                                                                  
                                                                                                                                                              
 if [ "$#" -ne 1 ]; then                                                                                                                                      
-  echo "Usage: $0 MODULE_NAME" >&2                                                                                                                           
+  echo "k MODULE_NAME" >&2                                                                                                                           
   exit 1                                                                                                                                                     
 fi                                                                                                                                                           
                                                                                                                                                              
