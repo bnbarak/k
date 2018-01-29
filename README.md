@@ -11,12 +11,11 @@
 
 ### Description
 Read module name from user
-1.  Build using the command `make`, unload a module if alreasy loaded
+1.  Build using `make`, unload a module if alreasy loaded
 2.  Clear the kernal log 
-2.  Unload module if already loaded
 3.  Load the module
-4.  Print the kernal log
-5.  Unload the module
+4.  Unload module
+5.  Print and clear the kernal log
 
 
 ### Collaboration
